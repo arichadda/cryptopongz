@@ -1,0 +1,55 @@
+{
+    "name": "CRYPTOPONGZ",
+    "version": "1.0.0",
+    "homepage": "https://cryptopongz.com",
+    "description": "larroes catch medloes",
+    "repository": "",
+    "author": "Ari Chadda ari.chadda@gmail.com",
+    "license": "",
+    "private": true,
+    "dependencies": {
+        "@iconify/icons-mdi": "^1.2.2",
+        "@iconify/react": "^3.2.0",
+        "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.9.1",
+        "@material-ui/lab": "^4.0.0-alpha.56",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "classnames": "^2.2.6",
+        "ios-inner-height": "^1.1.1",
+        "popmotion": "^8.7.3",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-helmet": "^6.1.0",
+        "react-material-ui-carousel": "v2",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.1",
+        "react-snapshot": "^1.3.0",
+        "react-transition-group": "^4.4.1",
+        "react-typical": "^0.1.3",
+        "three": "^0.125.0",
+        "use-dencrypt-effect": "1.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build && react-snapshot",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
