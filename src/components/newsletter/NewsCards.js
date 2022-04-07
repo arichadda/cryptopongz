@@ -18,6 +18,10 @@ import nlsix from "./market_movers/nl6.png";
 import nlseven from "./market_movers/nl7.png";
 import nleight from "./market_movers/nl8.png";
 import nlnine from "./market_movers/nl9.png";
+import nlten from "./market_movers/nl10.png";
+import nleleven from "./market_movers/nl11.png";
+import nltwelve from "./market_movers/nl12.png";
+
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -104,10 +108,46 @@ export const NewsCards = () => {
         name: "Bullish Executive Order, Massive NFT Acquisition, and the Next-Gen of DeFi",
         link: "https://cryptopong.substack.com/p/bullish-executive-order-massive-nft?s=r",
       },
+      {
+        img: nlten,
+        name: "Crypto Markets Unfazed by Fed Rate Hikes and EU Regulatory Vote",
+        link: "https://cryptopong.substack.com/p/crypto-markets-unfazed-by-fed-rate?s=r",
+      },
+      {
+        img: nleleven,
+        name: "Russia Considering Accepting BTC for Oil/Gas, Yuga Labs Reaches $4B Valuation...",
+        link: "https://cryptopong.substack.com/p/weekly-roundup-russia-considering?s=r",
+      },
+      {
+        img: nltwelve,
+        name: "The Weekly Roundup: OpenSea Adds Solana, the Will Smith Meme Coin, Miami Bitcoin Conference",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-opensea-adds-solana?s=r",
+      },
     ];
 
     return (
-      <Carousel>
+      <Carousel
+        swipe={true}
+        indicatorIconButtonProps={{
+          style: {
+            // padding: "10px", // 1
+            // color: "blue", // 3
+            boxShadow: 0
+          },
+        }}
+        activeIndicatorIconButtonProps={{
+          style: {
+            boxShadow: 0
+          },
+        }}
+        indicatorContainerProps={{
+          style: {
+            // textAlign: "right", // 4
+            boxShadow: 0
+            
+          },
+        }}
+      >
         {items.map((item, i) => (
           <Item key={i} item={item} />
         ))}
@@ -115,17 +155,18 @@ export const NewsCards = () => {
     );
   }
 
-  // function visit(link) {
-  //   window.location.href=link;
-  // }
-
   function Item(props) {
     return (
-      <div className={classes.box} onClick={() => {window.location.href=props.item.link}}>
+      <div
+        className={classes.box}
+        onClick={() => {
+          window.location.href = props.item.link;
+        }}
+      >
         <Typography variant="h5" component="h2" gutterBottom>
           {props.item.name}
         </Typography>
-        <br/>
+        <br />
         <div className={classes.large}>
           <img src={props.item.img} alt="news" height="600px" width="400px" />
         </div>
@@ -148,7 +189,7 @@ export const NewsCards = () => {
       <div>
         <div className={classes.right}>
           <div className={classes.rows}>
-            <Example/>
+            <Example />
           </div>
           <div>
             <Typography variant="h6" component="h2" gutterBottom>

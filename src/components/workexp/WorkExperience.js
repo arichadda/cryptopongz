@@ -49,17 +49,17 @@ export const WorkExperience = () => {
             <Typography variant="h6" component="h3">
               THE CRYPTOPONG NEWSLETTER
             </Typography>
-            <Typography variant="body1" component="h3">
-              larroes catch medloes
-            </Typography>
             <Typography variant="body2">
-              Subjugate and conquer. 'Cause that's who we are. That's what we
-              are. Capitalism harnesses that better than any other economic
-              model on Earth. Everything we have is because of capitalism.
-              ‘Cause someone had an incentive to get up off his ass, to
-              out-invent, to out-earn, yes, and to subjugate others less
-              capable, less intelligent, less ambitious, less lucky—to make
-              those capitalistic dreams come true.
+              As the platypii graze the Australian Alps—hunting for fish at
+              night and seeking shelter during the day, they become restless. A
+              rumor spreads of the growing web3 sector that is spreading like
+              wildfire across their homeland. Two of the platypiis’ forefront
+              leaders, Pat and Ari, began scanning the interwebs for the most
+              straightforward, unbiased information that the world has to offer
+              to educate their peers about the booming sector. To do so, they
+              form CRYPTOPONG: the newsletter—a weekly write-up released every
+              Sunday night to help their peers see crypto for what it really is:
+              the future of platykind.
             </Typography>
             <Tooltip
               title={"CRYPTOPONG Substack"}
@@ -93,17 +93,13 @@ export const WorkExperience = () => {
             <Typography variant="h6" component="h3">
               THE CRYPTOPONGZ NFT COLLECTION
             </Typography>
-            <Typography variant="body1" component="h3">
-              larroes catch medloes
-            </Typography>
             <Typography variant="body2">
-              Subjugate and conquer. 'Cause that's who we are. That's what we
-              are. Capitalism harnesses that better than any other economic
-              model on Earth. Everything we have is because of capitalism.
-              ‘Cause someone had an incentive to get up off his ass, to
-              out-invent, to out-earn, yes, and to subjugate others less
-              capable, less intelligent, less ambitious, less lucky—to make
-              those capitalistic dreams come true.
+              The platypii are worn out after weeks of learning everything there
+              is about crypto and wish to blow off some steam. In order to do
+              so, Pat and Ari host a huge party in Platypus Village. Everyone is
+              welcome. One rule only: every attendee must bring a single red
+              solo cup. The CryptoPongz are born: 3,933 unique NFTs are released
+              on the Solana blockchain. Mint Date TBA.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -119,17 +115,20 @@ export const WorkExperience = () => {
             <Typography variant="h6" component="h3">
               MUTANT CRYPTOPONGZ NFT AIRDROP
             </Typography>
-            <Typography variant="body1" component="h3">
-              larroes catch medloes
-            </Typography>
             <Typography variant="body2">
-              Subjugate and conquer. 'Cause that's who we are. That's what we
-              are. Capitalism harnesses that better than any other economic
-              model on Earth. Everything we have is because of capitalism.
-              ‘Cause someone had an incentive to get up off his ass, to
-              out-invent, to out-earn, yes, and to subjugate others less
-              capable, less intelligent, less ambitious, less lucky—to make
-              those capitalistic dreams come true.
+              As the platypii become smarter and party harder they grow as a
+              species—they begin to mutate. Thanks to their timely crypto
+              investments and membership in the close- knit CRYPTOPONG
+              community, the platypii have more $SOL in the bank to spend on
+              additional hats, eyewear, sunglasses, and are even able to
+              transform their base color to better reflect their enhanced
+              state—electric. An additional 3,933 mutated platypii are released
+              on the Solana blockchain. Initial Buyers that are current holders
+              of the Genesis CryptoPongz collection will be airdropped a mutant
+              CryptoPongz for free. Current holders of the Genesis CryptoPongz
+              who were not part of the initial mint have an opportunity to get a
+              mutated CryptoPongz before public sale through a WL (whitelist)
+              raffle.
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -145,17 +144,16 @@ export const WorkExperience = () => {
             <Typography variant="h6" component="h3">
               CRYPTOPONG DAO
             </Typography>
-            <Typography variant="body1" component="h3">
-              larroes catch medloes
-            </Typography>
             <Typography variant="body2">
-              Subjugate and conquer. 'Cause that's who we are. That's what we
-              are. Capitalism harnesses that better than any other economic
-              model on Earth. Everything we have is because of capitalism.
-              ‘Cause someone had an incentive to get up off his ass, to
-              out-invent, to out-earn, yes, and to subjugate others less
-              capable, less intelligent, less ambitious, less lucky—to make
-              those capitalistic dreams come true.
+              Formation of the CRYPTOPONG DAO (decentralized autonomous
+              organization). Holders of either the CryptoPongz and Mutant
+              CryptoPongz collections are each given one token, $PONG, which
+              serves as a vote to the CRYPTOPONG DAO. Through the implementation
+              of the DAO, members will be able to vote on the future of
+              CRYPTOPONG. Whether its subjects for the newsletter, deciding on
+              merch, future NFT drops, or any DAO member suggestions, the power
+              will be in the hands of the platypii. No platypii is greater than
+              another. Together we will rise.
             </Typography>
           </TimelineContent>
         </TimelineItem>

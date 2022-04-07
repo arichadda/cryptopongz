@@ -55,8 +55,9 @@ export const ProjectCards = () => {
                   width="200px"
                 />
               </div>
-              <Typography>TIER 1</Typography>
-              <Typography>larroes catch medloes</Typography>
+              <Typography variant="h5">TIER 1</Typography>
+              <Typography>Wildcard</Typography>
+              <Typography>Mint Count: 33</Typography>
             </div>
             <div className={classes.platty}>
               <div height="200px" width="200px">
@@ -67,8 +68,9 @@ export const ProjectCards = () => {
                   width="200px"
                 />
               </div>
-              <Typography>TIER 2</Typography>
-              <Typography>larroes catch medloes</Typography>
+              <Typography variant="h5">TIER 2</Typography>
+              <Typography>Black + Gold</Typography>
+              <Typography>Mint Count: 200</Typography>
             </div>
             <div className={classes.platty}>
               <div height="200px" width="200px">
@@ -79,8 +81,9 @@ export const ProjectCards = () => {
                   width="200px"
                 />
               </div>
-              <Typography>TIER 3</Typography>
-              <Typography>larroes catch medloes</Typography>
+              <Typography variant="h5">TIER 3</Typography>
+              <Typography>Creme + Crimson</Typography>
+              <Typography>Mint Count: 450</Typography>
             </div>
           </div>
           <div className={classes.large}>
@@ -93,8 +96,9 @@ export const ProjectCards = () => {
                   width="200px"
                 />
               </div>
-              <Typography>TIER 4</Typography>
-              <Typography>larroes catch medloes</Typography>
+              <Typography variant="h5">TIER 4</Typography>
+              <Typography>Purple + Green</Typography>
+              <Typography>Mint Count: 750</Typography>
             </div>
             <div className={classes.platty}>
               <div height="200px" width="200px">
@@ -105,8 +109,9 @@ export const ProjectCards = () => {
                   width="200px"
                 />
               </div>
-              <Typography>TIER 5</Typography>
-              <Typography>larroes catch medloes</Typography>
+              <Typography variant="h5">TIER 5</Typography>
+              <Typography>Blue + Orange</Typography>
+              <Typography>Mint Count: 1000</Typography>
             </div>
             <div className={classes.platty}>
               <div height="200px" width="200px">
@@ -117,8 +122,9 @@ export const ProjectCards = () => {
                   width="200px"
                 />
               </div>
-              <Typography>TIER 6</Typography>
-              <Typography>larroes catch medloes</Typography>
+              <Typography variant="h5">TIER 6</Typography>
+              <Typography>Pink + White</Typography>
+              <Typography>Mint Count: 1500</Typography>
             </div>
           </div>
         </div>

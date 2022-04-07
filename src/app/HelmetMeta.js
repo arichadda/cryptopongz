@@ -8,7 +8,7 @@ export const HelmetMeta = () => {
             <meta name="theme-color" content={Settings.colors.primary} />
             <title>{'CRYPTOPONGZ'}</title>
             <meta name="author" content={'Ari Chadda'} />
-            <meta name="description" content={'3,393 Platypii Partying on the Solana Blockchain'} />
+            <meta name="description" content={'3,393 Playtpii Partying on the Solana Blockchain'} />
             <meta name="keywords" content={['cryptopongz', 'nfts', 'blockchain']} />
         </Helmet>
     );

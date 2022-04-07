@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography, Container, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import gif from "./larger_gif.gif";
+import gif from "./gif_website.gif";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -68,16 +68,16 @@ export const Bio = () => {
       <br></br>
       <br></br>
       <Typography component="h2" gutterBottom>
-        larroes catch medloes
+        ABOUT US
       </Typography>
       <br></br>
       <Typography variant="subtitle1" component="h2" gutterBottom>
-        Subjugate and conquer. 'Cause that's who we are. That's what we are.
-        Capitalism harnesses that better than any other economic model on Earth.
-        Everything we have is because of capitalism. ‘Cause someone had an
-        incentive to get up off his ass, to out-invent, to out-earn, yes, and to
-        subjugate others less capable, less intelligent, less ambitious, less
-        lucky—to make those capitalistic dreams come true.
+        CryptoPongz are a collection of 3,933 Platypii partying on the Solana
+        Blockchain. Each platypii lives by the mantra:“One cup, everyone knows
+        the rules.”A red solo cup is always present in one of their webbed
+        hands. Although the platypii love to let loose —fulfillment of their
+        personal journeys always comes first. In the end, no one platty is
+        greater than another. Together we will rise.
       </Typography>
       <div className={classes.large}>
         <Button disabled variant="contained" className={classes.iconButton}>

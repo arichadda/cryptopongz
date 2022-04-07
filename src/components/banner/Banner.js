@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import banner from './small_saturated.png'
+import banner from './banner_23.png'
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -24,6 +24,8 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    width: '100%',
+    height: '100%'
   },
 }));
 

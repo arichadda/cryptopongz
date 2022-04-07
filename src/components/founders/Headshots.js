@@ -56,11 +56,16 @@ export const Headshots = () => {
         <br></br>
         <div className={classes.large}>
           <Typography variant="h6" component="h2" gutterBottom>
-            We are a dynamic team of NFT collectors and blockchain builders with
-            experience on multiple chains.
+          We founded CryptoPong to bring together individuals who love creating just as much as we do. Late-night pong games and early morning binge drinking coffee sessions led us to where we are today. Our company’s mantra of “One Cup, Everyone Knows the Rules” emphasizes the paradoxical nature of our members’ party-centric lifestyles. Although we love to let loose every once in a while, fulfillment of our personal/professional journeys always comes first. To this end, we seek to build a community of like-minded, disuptive individuals who can bounce start-up ideas, investing strategies, NFT opportunities, etc. off of each other to help each other achieve monetary and personal success.
           </Typography>
           <br></br>
         </div>
+        <br></br>
+        <br></br>
+        <Typography variant="h6" component="h2" gutterBottom align={'left'}>
+          Together we will rise. Welcome to the CryptoPong family.
+          </Typography>
+        <br></br>
         <div className={classes.big}>
           <div className={classes.large}>
             <div direction="column" width="360px">
@@ -79,7 +84,7 @@ export const Headshots = () => {
               <br></br>
               <div className={classes.large}>
                 <Typography variant="h6" component="h2">
-                  Founder | Dev
+                  Founder | Builder
                 </Typography>
               </div>
               <div className={classes.large}>
@@ -143,7 +148,7 @@ export const Headshots = () => {
               <br></br>
               <div className={classes.large}>
                 <Typography variant="h6" component="h2">
-                  Founder | Artist
+                  Founder | Creator
                 </Typography>
               </div>
               <div className={classes.large}>

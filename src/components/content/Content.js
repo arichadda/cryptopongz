@@ -17,9 +17,9 @@ export const Content = () => {
     const classes = useStyles();
 
     return (
-        <Container component="main" className={`${classes.main}`} maxWidth="lg">
+        <Container component="main" className={classes.main} maxWidth="lg">
             <Typography variant="h3" component="h1" gutterBottom>
-                <TextDecrypt text={'THE CRYPTOPONGZ NFT'} />
+                <TextDecrypt text={'The CryptoPongz NFT'} />
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
                 <TextDecrypt text={'3,393 Playtpii Partying on the Solana Blockchain'} />
