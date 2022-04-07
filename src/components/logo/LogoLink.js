@@ -23,7 +23,7 @@ export const LogoLink = () => {
 
     return (
         <Tooltip
-            title="larroes catch medloes"
+            title="together we will rise"
             placement="right"
             TransitionComponent={Zoom}
         >
