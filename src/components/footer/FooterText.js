@@ -18,7 +18,7 @@ export const Footer = () => {
     return (
         <div className={classes.footerText}>
             <Typography variant="body1" >
-                    Copyright © 2022 CRYPTOPONGZ. All rights reserved.
+                    Copyright © 2022 CryptoPongz. All rights reserved.
             </Typography>
         </div>
     );

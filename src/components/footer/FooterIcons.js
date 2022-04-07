@@ -34,7 +34,7 @@ export const FooterIcons = () => {
         color="inherit"
       >
         <Tooltip
-          title={"CRYPTOPONGZ Twitter"}
+          title={"CryptoPongz Twitter"}
           placement="left"
           TransitionComponent={Zoom}
         >
@@ -56,7 +56,7 @@ export const FooterIcons = () => {
         color="inherit"
       >
         <Tooltip
-          title={"CRYPTOPONGZ Discord"}
+          title={"CryptoPongz Discord"}
           placement="left"
           TransitionComponent={Zoom}
         >
