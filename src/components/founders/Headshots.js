@@ -90,7 +90,7 @@ export const Headshots = () => {
               <div className={classes.large}>
                 <Link
                   className={classes.link}
-                  href={"https://twitter.com/cryptopongz"}
+                  href={"https://twitter.com/arichadda"}
                   key={"twitter"}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -107,7 +107,7 @@ export const Headshots = () => {
                 </Link>
                 <Link
                   className={classes.link}
-                  href={"https://discord.com/invite/AkhcSkeN"}
+                  href={"https://discordapp.com/users/914356380679430196"}
                   key={"discord"}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -154,7 +154,7 @@ export const Headshots = () => {
               <div className={classes.large}>
                 <Link
                   className={classes.link}
-                  href={"https://twitter.com/cryptopongz"}
+                  href={"https://twitter.com/patrickkmurphyy"}
                   key={"twitter"}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -171,7 +171,7 @@ export const Headshots = () => {
                 </Link>
                 <Link
                   className={classes.link}
-                  href={"https://discord.com/invite/AkhcSkeN"}
+                  href={"https://discordapp.com/users/913153735344152696"}
                   key={"discord"}
                   target="_blank"
                   rel="noopener noreferrer"
