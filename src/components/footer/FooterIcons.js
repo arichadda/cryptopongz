@@ -6,7 +6,7 @@ import { Twitter } from "@material-ui/icons";
 const useStyles = makeStyles((theme) => ({
   footerIcons: {
     position: "fixed",
-    bottom: theme.spacing(12),
+    bottom: theme.spacing(2),
     right: theme.spacing(6),
   },
   iconButton: {

@@ -22,7 +22,7 @@ export const Content = () => {
                 <TextDecrypt text={'The CryptoPongz NFT'} />
             </Typography>
             <Typography variant="h5" component="h2" gutterBottom>
-                <TextDecrypt text={'3,393 Playtpii Partying on the Solana Blockchain'} />
+                <TextDecrypt text={'3,933 Playtpii Partying on the Solana Blockchain'} />
             </Typography>
         </Container>
     );
