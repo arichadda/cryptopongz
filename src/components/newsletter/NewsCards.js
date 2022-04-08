@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     direction: "row",
     height: "600px",
     width: "350px",
-    marginRight: "200px",
+    marginRight: "100px",
   },
   right: {
     display: "flex",
