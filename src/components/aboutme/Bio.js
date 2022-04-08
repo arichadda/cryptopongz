@@ -49,7 +49,7 @@ export const Bio = () => {
     <Container component="main" className={classes.main} maxWidth="lg">
       <div>
         <Typography variant="h4" component="h2" gutterBottom>
-          WELCOME TO PALTYPUS VILLAGE
+          WELCOME TO PLATYPUS VILLAGE
         </Typography>
         <Typography variant="h6" component="h2" gutterBottom>
           MINT: TBA
