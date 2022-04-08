@@ -57,7 +57,6 @@ const useStyles = makeStyles((theme) => ({
     display: "column",
     justifyContent: "center",
     alignItems: "center",
-    // width: "360px",
   },
 }));
 

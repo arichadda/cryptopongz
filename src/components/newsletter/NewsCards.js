@@ -39,13 +39,13 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
   },
   box: {
-    height: "800px",
-    width: "400px",
+    height: "600px",
+    width: "350px",
   },
   rows: {
     direction: "row",
-    height: "800px",
-    width: "400px",
+    height: "600px",
+    width: "350px",
     marginRight: "200px",
   },
   right: {
@@ -63,12 +63,12 @@ export const NewsCards = () => {
     var items = [
       {
         img: nlone,
-        name: "Crypto Markets Under Attack: Coins Rally but Face Difficult Week Ahead",
+        name: "Crypto Markets Under Attack...",
         link: "https://cryptopong.substack.com/p/crypto-markets-under-attack-coins?s=r",
       },
       {
         img: nltwo,
-        name: "Bitcoin Nears 30K as Wall Street Anticipates Critical Fed Decisions",
+        name: "Bitcoin Nears 30K as Wall Street...",
         link: "https://cryptopong.substack.com/p/bitcoin-nears-30k-as-wall-street?s=r",
       },
       {
@@ -78,7 +78,7 @@ export const NewsCards = () => {
       },
       {
         img: nlfour,
-        name: "Money Laundering and Fraud: The Dark Side of NFTs",
+        name: "Money Laundering and Fraud...",
         link: "https://cryptopong.substack.com/p/money-laundering-and-fraud-the-dark?s=r",
       },
       {
@@ -98,27 +98,27 @@ export const NewsCards = () => {
       },
       {
         img: nleight,
-        name: "A Russian Gas-Embargo, NFT Regulations, and BTC as Legal Tender: the Weekly Round-Up",
+        name: "A Russian Gas-Embargo, NFT Regulations...",
         link: "https://cryptopong.substack.com/p/a-russian-gas-embargo-nft-regulations?s=r",
       },
       {
         img: nlnine,
-        name: "Bullish Executive Order, Massive NFT Acquisition, and the Next-Gen of DeFi",
+        name: "Bullish Executive Order, Massive NFT Acquisition...",
         link: "https://cryptopong.substack.com/p/bullish-executive-order-massive-nft?s=r",
       },
       {
         img: nlten,
-        name: "Crypto Markets Unfazed by Fed Rate Hikes and EU Regulatory Vote",
+        name: "Crypto Markets Unfazed by Fed Rate Hikes...",
         link: "https://cryptopong.substack.com/p/crypto-markets-unfazed-by-fed-rate?s=r",
       },
       {
         img: nleleven,
-        name: "Russia Considering Accepting BTC for Oil/Gas, Yuga Labs Reaches $4B Valuation...",
+        name: "Russia Considering Accepting BTC for Oil/Gas...",
         link: "https://cryptopong.substack.com/p/weekly-roundup-russia-considering?s=r",
       },
       {
         img: nltwelve,
-        name: "The Weekly Roundup: OpenSea Adds Solana, the Will Smith Meme Coin, Miami Bitcoin Conference",
+        name: "The Weekly Roundup: OpenSea Adds Solana...",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-opensea-adds-solana?s=r",
       },
     ];
@@ -140,12 +140,12 @@ export const NewsCards = () => {
           window.location.href = props.item.link;
         }}
       >
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography variant="h6" component="h2" gutterBottom>
           {props.item.name}
         </Typography>
         <br />
         <div className={classes.large}>
-          <img src={props.item.img} alt="news" height="600px" width="400px" />
+          <img src={props.item.img} alt="news" height="500px" width="350px" />
         </div>
         <p>{props.item.description}</p>
       </div>
@@ -185,7 +185,7 @@ export const NewsCards = () => {
         </div>
       </Hidden>
       <Hidden mdUp>
-        <NewsletterCarousel />
+        <NewsletterCarousel/>
         <br></br>
         <br></br>
         <div>
