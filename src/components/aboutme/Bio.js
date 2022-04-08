@@ -11,9 +11,7 @@ const useStyles = makeStyles((theme) => ({
     direction: "column",
     justifyContent: "center",
     alignItems: "center",
-    "@media (max-width: 768px)": {
-      marginLeft: theme.spacing(4),
-    },
+    width: '100%'
   },
   large: {
     display: "flex",
@@ -25,6 +23,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: "10px",
+    marginRight: theme.spacing(2),
+    marginLeft: theme.spacing(2),
   },
   iconButton: {
     maxWidth: "120px",
@@ -71,7 +71,7 @@ export const Bio = () => {
         ABOUT US
       </Typography>
       <br></br>
-      <Typography variant="subtitle1" component="h2" gutterBottom>
+      <Typography variant="subtitle1" component="h2" gutterBottom align="justify">
         CryptoPongz are a collection of 3,933 Platypii partying on the Solana
         Blockchain. Each platypii lives by the mantra:“One cup, everyone knows
         the rules.”A red solo cup is always present in one of their webbed

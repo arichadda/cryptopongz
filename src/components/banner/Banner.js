@@ -11,9 +11,7 @@ const useStyles = makeStyles((theme) => ({
     direction: "column",
     justifyContent: "center",
     alignItems: "center",
-    "@media (max-width: 768px)": {
-      marginLeft: theme.spacing(4),
-    },
+    width: '100%',
   },
   large: {
     display: "flex",

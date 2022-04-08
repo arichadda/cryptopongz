@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Container, Typography } from "@material-ui/core";
+import { Container, Typography, Hidden } from "@material-ui/core";
 
 import plattyOne from "./plattys/platty1.png";
 import plattyTwo from "./plattys/platty2.png";
@@ -17,9 +17,7 @@ const useStyles = makeStyles((theme) => ({
     direction: "column",
     justifyContent: "center",
     alignItems: "center",
-    "@media (max-width: 768px)": {
-      marginLeft: theme.spacing(4),
-    },
+    width: "100%",
   },
   large: {
     display: "flex",
@@ -44,7 +42,93 @@ export const ProjectCards = () => {
           CRYPTOPONGZ RARITY
         </Typography>
         <br></br>
-        <div>
+        <Hidden smDown>
+          <div>
+            <div className={classes.large}>
+              <div className={classes.platty}>
+                <div height="200px" width="200px">
+                  <img
+                    src={plattyOne}
+                    alt="Breakfast"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <Typography variant="h5">TIER 1</Typography>
+                <Typography>Wildcard</Typography>
+                <Typography>Mint Count: 33</Typography>
+              </div>
+              <div className={classes.platty}>
+                <div height="200px" width="200px">
+                  <img
+                    src={plattyTwo}
+                    alt="Breakfast"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <Typography variant="h5">TIER 2</Typography>
+                <Typography>Black + Gold</Typography>
+                <Typography>Mint Count: 200</Typography>
+              </div>
+              <div className={classes.platty}>
+                <div height="200px" width="200px">
+                  <img
+                    src={plattyThree}
+                    alt="Breakfast"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <Typography variant="h5">TIER 3</Typography>
+                <Typography>Creme + Crimson</Typography>
+                <Typography>Mint Count: 450</Typography>
+              </div>
+            </div>
+            <div className={classes.large}>
+              <div className={classes.platty}>
+                <div height="200px" width="200px">
+                  <img
+                    src={plattyFour}
+                    alt="Breakfast"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <Typography variant="h5">TIER 4</Typography>
+                <Typography>Purple + Green</Typography>
+                <Typography>Mint Count: 750</Typography>
+              </div>
+              <div className={classes.platty}>
+                <div height="200px" width="200px">
+                  <img
+                    src={plattyFive}
+                    alt="Breakfast"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <Typography variant="h5">TIER 5</Typography>
+                <Typography>Blue + Orange</Typography>
+                <Typography>Mint Count: 1000</Typography>
+              </div>
+              <div className={classes.platty}>
+                <div height="200px" width="200px">
+                  <img
+                    src={plattySix}
+                    alt="Breakfast"
+                    height="200px"
+                    width="200px"
+                  />
+                </div>
+                <Typography variant="h5">TIER 6</Typography>
+                <Typography>Pink + White</Typography>
+                <Typography>Mint Count: 1500</Typography>
+              </div>
+            </div>
+          </div>
+        </Hidden>
+        <Hidden mdUp>
           <div className={classes.large}>
             <div className={classes.platty}>
               <div height="200px" width="200px">
@@ -59,6 +143,8 @@ export const ProjectCards = () => {
               <Typography>Wildcard</Typography>
               <Typography>Mint Count: 33</Typography>
             </div>
+          </div>
+          <div className={classes.large}>
             <div className={classes.platty}>
               <div height="200px" width="200px">
                 <img
@@ -72,6 +158,8 @@ export const ProjectCards = () => {
               <Typography>Black + Gold</Typography>
               <Typography>Mint Count: 200</Typography>
             </div>
+          </div>
+          <div className={classes.large}>
             <div className={classes.platty}>
               <div height="200px" width="200px">
                 <img
@@ -100,6 +188,8 @@ export const ProjectCards = () => {
               <Typography>Purple + Green</Typography>
               <Typography>Mint Count: 750</Typography>
             </div>
+          </div>
+          <div className={classes.large}>
             <div className={classes.platty}>
               <div height="200px" width="200px">
                 <img
@@ -113,6 +203,8 @@ export const ProjectCards = () => {
               <Typography>Blue + Orange</Typography>
               <Typography>Mint Count: 1000</Typography>
             </div>
+          </div>
+          <div className={classes.large}>
             <div className={classes.platty}>
               <div height="200px" width="200px">
                 <img
@@ -127,7 +219,7 @@ export const ProjectCards = () => {
               <Typography>Mint Count: 1500</Typography>
             </div>
           </div>
-        </div>
+        </Hidden>
       </div>
     </Container>
   );

@@ -6,8 +6,9 @@ import { Twitter } from "@material-ui/icons";
 const useStyles = makeStyles((theme) => ({
     speedDial: {
         position: "fixed",
-        top: theme.spacing(10),
-        right: theme.spacing(6),
+        bottom: theme.spacing(2),
+        right: theme.spacing(4),
+        top: theme.spacing(4)
     },
     icon: {
         color: theme.palette.foreground.default,

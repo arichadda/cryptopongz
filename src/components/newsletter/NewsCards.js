@@ -5,6 +5,7 @@ import {
   FormGroup,
   TextField,
   Button,
+  Hidden,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Carousel from "react-material-ui-carousel";
@@ -22,7 +23,6 @@ import nlten from "./market_movers/nl10.png";
 import nleleven from "./market_movers/nl11.png";
 import nltwelve from "./market_movers/nl12.png";
 
-
 const useStyles = makeStyles((theme) => ({
   main: {
     display: "flex-start",
@@ -31,9 +31,7 @@ const useStyles = makeStyles((theme) => ({
     direction: "column",
     justifyContent: "center",
     alignItems: "center",
-    "@media (max-width: 768px)": {
-      marginLeft: theme.spacing(4),
-    },
+    width: "100%",
   },
   large: {
     display: "flex",
@@ -61,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
 export const NewsCards = () => {
   const classes = useStyles();
 
-  function Example(props) {
+  function NewsletterCarousel(props) {
     var items = [
       {
         img: nlone,
@@ -126,28 +124,7 @@ export const NewsCards = () => {
     ];
 
     return (
-      <Carousel
-        swipe={true}
-        indicatorIconButtonProps={{
-          style: {
-            // padding: "10px", // 1
-            // color: "blue", // 3
-            boxShadow: 0
-          },
-        }}
-        activeIndicatorIconButtonProps={{
-          style: {
-            boxShadow: 0
-          },
-        }}
-        indicatorContainerProps={{
-          style: {
-            // textAlign: "right", // 4
-            boxShadow: 0
-            
-          },
-        }}
-      >
+      <Carousel swipe={true}>
         {items.map((item, i) => (
           <Item key={i} item={item} />
         ))}
@@ -186,25 +163,44 @@ export const NewsCards = () => {
         </Typography>
         <br></br>
       </div>
-      <div>
-        <div className={classes.right}>
-          <div className={classes.rows}>
-            <Example />
-          </div>
-          <div>
-            <Typography variant="h6" component="h2" gutterBottom>
-              SUBSCRIBE NOW:
-            </Typography>
-            <br></br>
-            <FormGroup row>
-              <TextField variant="outlined" placeholder="example@gmail.com" />
-              <Button variant="contained" disableElevation>
-                Subscribe
-              </Button>
-            </FormGroup>
+      <Hidden smDown>
+        <div>
+          <div className={classes.right}>
+            <div className={classes.rows}>
+              <NewsletterCarousel />
+            </div>
+            <div>
+              <Typography variant="h6" component="h2" gutterBottom>
+                SUBSCRIBE NOW:
+              </Typography>
+              <br></br>
+              <FormGroup row>
+                <TextField variant="outlined" placeholder="example@gmail.com" />
+                <Button variant="contained" disableElevation>
+                  Subscribe
+                </Button>
+              </FormGroup>
+            </div>
           </div>
         </div>
-      </div>
+      </Hidden>
+      <Hidden mdUp>
+        <NewsletterCarousel />
+        <br></br>
+        <br></br>
+        <div>
+          <Typography variant="h6" component="h2" gutterBottom>
+            SUBSCRIBE NOW:
+          </Typography>
+          <br></br>
+          <FormGroup row>
+            <TextField variant="outlined" placeholder="example@gmail.com" />
+            <Button variant="contained" disableElevation>
+              Subscribe
+            </Button>
+          </FormGroup>
+        </div>
+      </Hidden>
     </Container>
   );
 };
