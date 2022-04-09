@@ -2,13 +2,14 @@ import React from "react";
 import {
   Typography,
   Container,
-  FormGroup,
-  TextField,
-  Button,
+  // FormGroup,
+  // TextField,
+  // Button,
   Hidden,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Carousel from "react-material-ui-carousel";
+// import emailjs from "emailjs-com";
 
 import nlone from "./market_movers/nl1.png";
 import nltwo from "./market_movers/nl2.png";
@@ -58,6 +59,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const NewsCards = () => {
   const classes = useStyles();
+  // const [value, setValue] = useState("");
 
   function NewsletterCarousel(props) {
     var items = [
@@ -152,6 +154,9 @@ export const NewsCards = () => {
     );
   }
 
+  // const SERVICE_ID = "service_yk3y7bs";
+  // const TEMPLATE_ID = "template_e69vy2s";
+
   return (
     <Container component="main" className={classes.main} maxWidth="lg">
       <div>
@@ -169,37 +174,62 @@ export const NewsCards = () => {
             <div className={classes.rows}>
               <NewsletterCarousel />
             </div>
-            <div>
+            {/* <div>
               <Typography variant="h6" component="h2" gutterBottom>
                 SUBSCRIBE NOW:
               </Typography>
               <br></br>
               <FormGroup row>
-                <TextField variant="outlined" placeholder="example@gmail.com" />
+                <TextField
+                  variant="outlined"
+                  placeholder="example@gmail.com"
+                  value={value}
+                  onChange={(e) => setValue(e.target.value)}
+                />
                 <Button variant="contained" disableElevation>
                   Subscribe
                 </Button>
               </FormGroup>
-            </div>
+            </div> */}
           </div>
         </div>
       </Hidden>
       <Hidden mdUp>
-        <NewsletterCarousel/>
+        <NewsletterCarousel />
         <br></br>
         <br></br>
-        <div>
+        {/* <div>
           <Typography variant="h6" component="h2" gutterBottom>
             SUBSCRIBE NOW:
           </Typography>
           <br></br>
           <FormGroup row>
-            <TextField variant="outlined" placeholder="example@gmail.com" />
-            <Button variant="contained" disableElevation>
+            <TextField
+              variant="outlined"
+              placeholder="example@gmail.com"
+              value={value}
+              onChange={(e) => setValue(e.target.value)}
+            />
+            <Button
+              variant="contained"
+              disableElevation
+              onClick={() => {
+                console.log("JERE");
+                console.log(value);
+                emailjs.send(SERVICE_ID, TEMPLATE_ID, value).then(
+                  function (response) {
+                    console.log("SUCCESS!", response.status, response.text);
+                  },
+                  function (error) {
+                    console.log("FAILED...", error);
+                  }
+                );
+              }}
+            >
               Subscribe
             </Button>
           </FormGroup>
-        </div>
+        </div> */}
       </Hidden>
     </Container>
   );
