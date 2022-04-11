@@ -71,7 +71,6 @@ export const Headshots = () => {
         </Typography>
         <br></br>
         <Hidden smDown>
-          4t
           <div className={classes.large}>
             <Typography
               variant="h6"
