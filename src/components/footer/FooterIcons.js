@@ -26,7 +26,7 @@ export const FooterIcons = () => {
   const socialItems = (
     <div>
       <Link
-        href={"https://twitter.com/cryptopongznft"}
+        href={"https://twitter.com/cryptopongz"}
         key={"twitter"}
         target="_blank"
         rel="noopener noreferrer"

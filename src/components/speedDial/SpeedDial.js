@@ -45,7 +45,7 @@ export const SpeedDials = () => {
                     icon={<Twitter className={classes.icon}/>}
                     tooltipTitle={'CryptoPongz Twitter'}
                     onClick={handleClose}
-                    href={'https://www.twitter.com/cryptopongznft'}
+                    href={'https://www.twitter.com/cryptopongz'}
                     target="_blank"
                     rel="noopener noreferrer"
                     underline="none"
