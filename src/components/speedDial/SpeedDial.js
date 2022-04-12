@@ -60,7 +60,7 @@ export const SpeedDials = () => {
                     }
                     tooltipTitle={'CryptoPongz Discord'}
                     onClick={handleClose}
-                    href={'http://www.discord.gg/eZGJ8UNw'}
+                    href={'https://discord.gg/dvNNkXTPyc'}
                     target="_blank"
                     rel="noopener noreferrer"
                     underline="none"

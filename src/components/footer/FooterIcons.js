@@ -48,7 +48,7 @@ export const FooterIcons = () => {
         </Tooltip>
       </Link>
       <Link
-        href={"http://www.discord.gg/eZGJ8UNw"}
+        href={"https://discord.gg/dvNNkXTPyc"}
         key={"discord"}
         target="_blank"
         rel="noopener noreferrer"
