@@ -86,7 +86,7 @@ export const Headshots = () => {
               lifestyles. Although we love to let loose every once in a while,
               fulfillment of our personal/professional journeys always comes
               first. To this end, we seek to build a community of like-minded,
-              disuptive individuals who can bounce start-up ideas, investing
+              disruptive individuals who can bounce start-up ideas, investing
               strategies, NFT opportunities, etc. off of each other to help each
               other achieve monetary and personal success.
             </Typography>

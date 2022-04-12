@@ -75,7 +75,7 @@ export const Bio = () => {
         CryptoPongz are a collection of 3,933 Platypii partying on the Solana
         Blockchain. Each platypii lives by the mantra:“One cup, everyone knows
         the rules.”A red solo cup is always present in one of their webbed
-        hands. Although the platypii love to let loose —fulfillment of their
+        hands. Although the platypii love to let loose—fulfillment of their
         personal journeys always comes first. In the end, no one platty is
         greater than another. Together we will rise.
       </Typography>
