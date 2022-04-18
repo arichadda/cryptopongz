@@ -23,6 +23,7 @@ import nlnine from "./market_movers/nl9.png";
 import nlten from "./market_movers/nl10.png";
 import nleleven from "./market_movers/nl11.png";
 import nltwelve from "./market_movers/nl12.png";
+import nlthirteen from "./market_movers/nl13.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -122,6 +123,11 @@ export const NewsCards = () => {
         img: nltwelve,
         name: "The Weekly Roundup: OpenSea Adds Solana...",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-opensea-adds-solana?s=r",
+      },
+      {
+        img: nlthirteen,
+        name: "North Korean Hackers Linked to $600M Heist...",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-north-korean-hackers?s=r",
       },
     ];
 
