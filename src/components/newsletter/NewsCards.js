@@ -24,6 +24,7 @@ import nlten from "./market_movers/nl10.png";
 import nleleven from "./market_movers/nl11.png";
 import nltwelve from "./market_movers/nl12.png";
 import nlthirteen from "./market_movers/nl13.png";
+import nlfourteen from "./market_movers/nl14.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -127,6 +128,11 @@ export const NewsCards = () => {
       {
         img: nlthirteen,
         name: "North Korean Hackers Linked to $600M Heist...",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-north-korean-hackers?s=r",
+      },
+      {
+        img: nlfourteen,
+        name: "Binance Denies Russia Link...",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-north-korean-hackers?s=r",
       },
     ];
