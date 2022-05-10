@@ -26,6 +26,7 @@ import nltwelve from "./market_movers/nl12.png";
 import nlthirteen from "./market_movers/nl13.png";
 import nlfourteen from "./market_movers/nl14.png";
 import nlfifteen from "./market_movers/nl15.png";
+import nlsixteen from "./market_movers/nl16.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -141,6 +142,11 @@ export const NewsCards = () => {
         img: nlfifteen,
         name: 'BAYC "Breaks" Ethereum...',
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-bayc-breaks-ethereum?s=r",
+      },
+      {
+        img: nlsixteen,
+        name: "Bitcoin Hits 3-Month Low...",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-bitcoin-hits-3?s=r",
       },
     ];
 
