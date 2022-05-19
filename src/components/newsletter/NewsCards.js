@@ -27,6 +27,7 @@ import nlthirteen from "./market_movers/nl13.png";
 import nlfourteen from "./market_movers/nl14.png";
 import nlfifteen from "./market_movers/nl15.png";
 import nlsixteen from "./market_movers/nl16.png";
+import nlseventeen from "./market_movers/nl17.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -147,6 +148,11 @@ export const NewsCards = () => {
         img: nlsixteen,
         name: "Bitcoin Hits 3-Month Low...",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-bitcoin-hits-3?s=r",
+      },
+      {
+        img: nlseventeen,
+        name: "Special Edition: Terra's Collapse",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-special-edition?s=w",
       },
     ];
 
