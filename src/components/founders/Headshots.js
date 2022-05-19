@@ -186,7 +186,7 @@ export const Headshots = () => {
                 <div className={classes.large}>
                   <Link
                     className={classes.link}
-                    href={"https://twitter.com/patrickkmurphyy"}
+                    href={"https://twitter.com/hodlboi_"}
                     key={"twitter"}
                     target="_blank"
                     rel="noopener noreferrer"
