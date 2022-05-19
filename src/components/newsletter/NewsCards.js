@@ -28,6 +28,7 @@ import nlfourteen from "./market_movers/nl14.png";
 import nlfifteen from "./market_movers/nl15.png";
 import nlsixteen from "./market_movers/nl16.png";
 import nlseventeen from "./market_movers/nl17.png";
+import nleighteen from "./market_movers/nl18.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -136,21 +137,26 @@ export const NewsCards = () => {
       },
       {
         img: nlfourteen,
+        name: "Mining Dominates Bitcoin Conference...",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-mining-dominates?s=r",
+      },
+      {
+        img: nlfifteen,
         name: "Binance Denies Russia Link...",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-north-korean-hackers?s=r",
       },
       {
-        img: nlfifteen,
+        img: nlsixteen,
         name: 'BAYC "Breaks" Ethereum...',
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-bayc-breaks-ethereum?s=r",
       },
       {
-        img: nlsixteen,
+        img: nlseventeen,
         name: "Bitcoin Hits 3-Month Low...",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-bitcoin-hits-3?s=r",
       },
       {
-        img: nlseventeen,
+        img: nleighteen,
         name: "Special Edition: Terra's Collapse",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-special-edition?s=w",
       },
