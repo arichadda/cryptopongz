@@ -29,6 +29,7 @@ import nlfifteen from "./market_movers/nl15.png";
 import nlsixteen from "./market_movers/nl16.png";
 import nlseventeen from "./market_movers/nl17.png";
 import nleighteen from "./market_movers/nl18.png";
+import nlnineteen from "./market_movers/nl19.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -158,7 +159,12 @@ export const NewsCards = () => {
       {
         img: nleighteen,
         name: "Special Edition: Terra's Collapse",
-        link: "https://cryptopong.substack.com/p/the-weekly-roundup-special-edition?s=w",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-special-edition?s=r",
+      },
+      {
+        img: nlnineteen,
+        name: "Crypto Sector \"Re-Stabilize\"...",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-crypto-sector?s=r",
       },
     ];
 
