@@ -30,6 +30,10 @@ import nlsixteen from "./market_movers/nl16.png";
 import nlseventeen from "./market_movers/nl17.png";
 import nleighteen from "./market_movers/nl18.png";
 import nlnineteen from "./market_movers/nl19.png";
+import nltwenty from "./market_movers/nl20.png";
+import nltwentyone from "./market_movers/nl21.png";
+import nltwentytwo from "./market_movers/nl22.png";
+import nltwentythree from "./market_movers/nl23.png";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -165,6 +169,26 @@ export const NewsCards = () => {
         img: nlnineteen,
         name: "Crypto Sector \"Re-Stabilize\"...",
         link: "https://cryptopong.substack.com/p/the-weekly-roundup-crypto-sector?s=r",
+      },
+      {
+        img: nltwenty,
+        name: "Terra 2.0, the \"Bitcoin Decoupling\"...",
+        link: "https://cryptopong.substack.com/p/the-weekly-roundup-terra-20-the-bitcoin?s=r",
+      },
+      {
+        img: nltwentyone,
+        name: "Bitcoin ATMs: Technology of the Past?",
+        link: "https://cryptopong.substack.com/p/bitcoin-atms-technology-of-the-past?s=r",
+      },
+      {
+        img: nltwentytwo,
+        name: "Crypto Suffers as Inflation Reaches 40-Year High",
+        link: "https://cryptopong.substack.com/p/crypto-suffers-as-inflation-reaches?s=r",
+      },
+      {
+        img: nltwentythree,
+        name: "Celsius Network Freezes Out Investors",
+        link: "https://cryptopong.substack.com/p/celsius-network-freezes-out-investors?s=r",
       },
     ];
 
