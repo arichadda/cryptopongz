@@ -35,7 +35,7 @@ import nltwentyone from "./market_movers/nl21.png";
 import nltwentytwo from "./market_movers/nl22.png";
 import nltwentythree from "./market_movers/nl23.png";
 import nltwentyfour from "./market_movers/nl24.png";
-
+import nltwentyfive from "./market_movers/nl25.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -195,6 +195,11 @@ export const NewsCards = () => {
         img: nltwentyfour,
         name: "Solana set to Release Mobile Phone",
         link: "https://cryptopong.substack.com/p/solana-set-to-release-mobile-phone?s=r",
+      },
+      {
+        img: nltwentyfive,
+        name: "Bitcoin Records Highest Monthly Loss In 11 Years",
+        link: "https://cryptopong.substack.com/p/bitcoin-records-highest-monthly-loss?s=r",
       },
     ];
 
