@@ -37,6 +37,7 @@ import nltwentythree from "./market_movers/nl23.png";
 import nltwentyfour from "./market_movers/nl24.png";
 import nltwentyfive from "./market_movers/nl25.png";
 import nltwentysix from "./market_movers/nl26.png";
+import nltwentyseven from "./market_movers/nl27.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -206,6 +207,11 @@ export const NewsCards = () => {
         img: nltwentysix,
         name: "CryptoPongz NFT Collection set for August 6th Mint",
         link: "https://cryptopong.substack.com/p/cryptopongz-nft-collection-set-for?s=r",
+      },
+      {
+        img: nltwentyseven,
+        name: "Positive Crypto Momentum Building...",
+        link: "https://cryptopong.substack.com/p/positive-crypto-momentum-building?s=r",
       },
     ];
 
